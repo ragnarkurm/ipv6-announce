@@ -3,6 +3,7 @@
 # This web script collects FQDN and IPv6
 # and writes down to specified dir.
 # Filename is FQDN and contents is IPv6.
+# Remember to configure $db parameter.
 
 # fullpath
 # outside web-space
