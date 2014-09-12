@@ -15,6 +15,7 @@ if [ -z "$ipv6" ]; then
 	echo "Unable to identify IPv6 address."
 	exit
 fi
+ipv6=`echo "$ipv6" | sed -e 's/\(....\)/\1:/g' -e 's/:$//'`
 
 fqdn=`hostname --fqdn`
 if [ -z "$fqdn" ]; then
