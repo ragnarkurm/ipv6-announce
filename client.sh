@@ -3,6 +3,8 @@
 # This script identifies FQDN and
 # host IPv6 (expects teredo running).
 # Then reports combination to server.
+# Remember to put it to cron.
+# Remember to configure your web script URL.
 
 url="http://www.example.com/server.php"
 
